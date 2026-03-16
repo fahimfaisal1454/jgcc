@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media & static (optional: keep if you don’t want uploads tracked)
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Migrations (optional: ONLY ignore if you don’t want to track them)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node (if you ever add frontend tools inside backend)
+node_modules/
+
+# Secrets / keys
+*.pem
+*.key
